@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paras's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio!</h1>
+    </header>
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I'm Paras, a passionate developer.</p>
+    </section>
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="https://github.com/paras260491/project1">Project 1</a></li>
+            <li><a href="https://github.com/paras260491/project2">Project 2</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>© 2025 Paras. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+section {
+    margin: 2rem;
+}
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: #777;
+}
